@@ -1,0 +1,25 @@
+/* Contato */
+.map-rounded{
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+}
+
+.map{
+    width: 100%;
+    height: 630px;
+    border-radius: 15px;
+    border: none;
+}
+
+@media(max-width:479px){
+    .map-rounded{
+        margin: 0 -15px;
+        border-radius: 0;
+    }
+
+    .map{
+        height: 100vh;
+    }
+}

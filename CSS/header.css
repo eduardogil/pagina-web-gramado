@@ -1,0 +1,41 @@
+/* Header */
+
+.header{
+    padding: 12px 0;
+    background: #797e7a;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    position: relative;
+    z-index: 3;
+}
+
+.logo{
+    padding-top: 10px; 
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+@media(max-width: 600px){
+.header{
+    text-align: center;
+}
+
+    .logo,
+    .header ul{
+        float: none;
+    }
+    .logo{
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .header nav{
+        padding: 0;
+    }
+
+    .header a:not(.logo){
+        padding: 7px;
+        font-size:12px;
+        line-height: 12px; 
+    }
+}

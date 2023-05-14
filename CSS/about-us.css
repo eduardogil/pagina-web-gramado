@@ -1,0 +1,27 @@
+.article-list{
+    padding: 60px 60px 60px;
+    margin: 60px 60px 60px;
+    border-top: 1px;
+    list-style: none;
+}
+
+.article-list article{
+    padding: 15px 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    transition: transform 0.3s ease-in-out 0s;
+}
+
+
+.article-list li{
+    margin-bottom: 30px;
+}
+
+.article-list h4{
+    margin-top: 15px;
+}
+
+.article-list p{
+    min-height: 200px;
+}
